@@ -1,0 +1,290 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*============= HEADER ============*/
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*============= TOP-TABS ============*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: midnightblue;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============= BOTTOM-TABS ============*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 40pox;
+    background-color: darkblue;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============= SPECIAL OFFERS ============*/
+#homepage-heading{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    background: rgba(255, 255, 255, .8);
+}
+
+#main{
+    margin-top: 119px;
+    background-image: url(images/BACKGROUND-Mall.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+#infobox-specials{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#coloumn{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+}
+
+#coloumn p{
+    font-family: monospace;
+    border: none;
+    float: left;
+}
+
+#coloumn p img{
+    width: 25%;
+    float: left;
+}
+
+/*============= CONTACT ============*/
+a{
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border-bottom-style: hidden;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+ 
+td{
+    border-top: 1px solid #929292; 
+}
+
+/*============= FORM ============*/
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+h5{
+    text-align: center;
+    font-size: 80px;
+}
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+textarea{
+      width: 100%;
+      height :50px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+.button{
+      display : block;
+      background-color: midnightblue;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+/*============= INFO-BOX ============*/
+a.info-box{
+    text-decoration: none;
+    background: rgba(255 ,225, 255, .8);
+    width: 90%;
+    height: 115px;
+    display: block;
+    margin: auto;
+    margin-top      : 12px;
+    padding         : 1px;
+}
+
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+    padding-top: 12px;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : saddlebrown;
+      text-align: center;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height     40px; 
+}
+
+/*============= MOVIES ============*/
+a.info-box-movies{
+    text-decoration: none;
+    background: rgba(255 ,225, 255, .8);
+    width: 33%;
+    height: 800px;
+    display: inline-block;
+    margin: auto;
+    margin-top      : 12px;
+    padding         : 1px;
+}
+
+.info-box-movies img{
+      height : 480px;
+      width: 95%;
+      margin : 10px;
+      float  : left;
+      padding-bottom: 5px;
+}
+
+.info-box-movies h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : darkslategrey;
+      font-size: 25px;
+}
+
+.info-box-movies p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : slategrey;
+      text-align: center;
+}
+
+
+img.cinema-logo{
+    display: block;
+    width: 900px;
+    height: 360px;
+    padding-left: 370px;
+}
+
+/*============= MOVIES-SINGLE-PAGE ============*/
+
+a.info-box-movies-page{
+    text-decoration: none;
+    background: rgba(255 ,225, 255, .8);
+    width: 32%;
+    height: 500px;
+    display: inline-block;
+    margin: auto;
+    margin-top      : 12px;
+    padding         : 1px;
+}
+
+.info-box-movies-page img{
+      height : 400px;
+      width: 95%;
+      margin : 10px;
+      float  : left;
+      padding-left: 20px;
+}
+
+.info-box-movies-page p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : black;
+      text-align: center;
+}
+
